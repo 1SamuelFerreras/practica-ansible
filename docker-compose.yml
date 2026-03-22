@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  srv1:
+    build: .
+    ports: ["2201:22"]
+  srv2:
+    build: .
+    ports: ["2202:22"]
+  srv3:
+    build: .
+    ports: ["2203:22"]
+  srv4:
+    build: .
+    ports: ["2204:22"]
+  srv5:
+    build: .
+    ports: ["2205:22"]
